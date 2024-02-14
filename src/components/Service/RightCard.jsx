@@ -5,16 +5,15 @@ const RightCard = ({position}) => {
     const [justify, setjustify] = useState("")
     const [padding, setpadding] = useState("")
     const [dataAos, setdataAos] = useState("")
-    // var justify=null
-    // var padding=null
+    
   useEffect(() => {
-
+   init()
+  })
+  const init=()=>{
          setjustify((position === "left")?"justify-start":"justify-end")
          setpadding((position === "left")?"sm:pr-8":"sm:pl-8")
          setdataAos((position === "left")?"fade-right":"fade-left")
-  
-   
-  }, [])
+   }
   
     return (
     <div className="mt-3 sm:mt-1 sm:mb-1">
@@ -23,7 +22,7 @@ const RightCard = ({position}) => {
                         <div className={"w-full sm:w-1/2 " +padding}>
                             <div 
                             data-aos={dataAos}
-                            data-aos-duration="1200"
+                            data-aos-duration="1300"
                             className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150"
                             >
                                 <h3 className='text-primaryColor group-hover:text-white font-700'>heading text</h3>
