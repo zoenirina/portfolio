@@ -45,9 +45,14 @@ html{
   scroll-behavior: smooth;
 }
 body{
+  /* color: #0afea4e2; */
+  /* color: #05f59d; */
+  /* color: #ffb507; */
+  /* color: rgb(31, 159, 228); */
   font-family:  sans-serif;
-  background-image:linear-gradient(60deg,rgb(6, 31, 106),rgb(97, 215, 113)) ;
-
+  /* background-image:linear-gradient(60deg,rgb(6, 31, 106),rgb(97, 215, 113)) ; */
+  /* background-image:linear-gradient(60deg,#23304c,#021233) ; */
+/* background-color: #f9fcf5; */
 }
 .container{
   max-width: 1000px;

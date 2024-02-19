@@ -7,11 +7,11 @@ module.exports = {
     extend: {
       colors:{
         // primaryColor:"#8873ef",
-        primaryColor:"#fce515",
+        primaryColor:"#00ffa2",
         headingColor:"#081e21",
         smallTextColor:"#37474f",
-        greenlightq:"#ebeae7db",
-        greenlight:"#ffffff",
+        textGreenLight:"#05f59d",
+        btnGreenlight:"#30e8a5cf",
       }
     },
   },
